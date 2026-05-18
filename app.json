@@ -1,14 +1,15 @@
 {
   "expo": {
-    "name": "ServiceOrchestrator",
+    "name": "KaamAsan AI",
     "slug": "ServiceOrchestrator",
     "version": "1.0.0",
+    "sdkVersion": "54.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "serviceorchestrator",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "icon": "./assets/images/icon.png"
     },
     "android": {
       "adaptiveIcon": {
@@ -17,14 +18,14 @@
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.sameersherbaz.ServiceOrchestrator"
     },
     "web": {
-      "output": "static",
+      "output": "single",
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-router",
       [
         "expo-splash-screen",
         {
@@ -36,9 +37,11 @@
         }
       ]
     ],
-    "experiments": {
-      "typedRoutes": true,
-      "reactCompiler": true
-    }
+    "extra": {
+      "eas": {
+        "projectId": "d83533ff-3504-4a8d-baa4-edb26cc2ae58"
+      }
+    },
+    "owner": "sameersherbaz"
   }
 }
