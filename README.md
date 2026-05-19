@@ -101,7 +101,7 @@ To allow transparent evaluation of our matching matrix, the mock registry in `pr
 ## 🔌 APIs & Developer Tools Used
 
 KaamAsan AI is built entirely on modern engineering runtimes:
-* **Core Agentic Orchestrator:** Google Gemini 2.5 Flash API (Model: `gemini-2.5-flash`, Endpoint: `/v1beta/models/gemini-2.5-flash:generateContent`).
+* **Core Agentic Orchestrator:** Google Antigravity (Powered by Google Gemini 2.5 Flash API for conversational Roman Urdu intent understanding, matching, scheduling, pricing, and dispute resolution workflows).
 * **Mobile Runtime System:** Expo SDK v54.0.0.
 * **Component UI Library:** React Native Paper v5 (Material Design 3 configuration).
 * **Navigation Core:** React Navigation Native Stack v6.
