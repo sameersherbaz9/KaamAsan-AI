@@ -224,5 +224,3 @@ To ensure transparency and professional engineering evaluation, the following co
 3. **Stateless Offline Fallback:** When the Gemini API is unavailable (due to network limits or quota caps), the app seamlessly switches to a robust regex parser. While highly accurate for core services and sectors, the offline parser lacks the semantic nuance of the Gemini engine for extremely noisy, freeform slang.
 
 ---
-
-*Developed with ❤️ for the Google Antigravity Hackathon.*
